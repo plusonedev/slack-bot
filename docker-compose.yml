@@ -20,6 +20,8 @@ x-app: &app
     BOOTSNAP_CACHE_DIR: /usr/src/bootsnap
     HISTFILE: /usr/src/app/log/.bash_history
     PSQL_HISTFILE: /usr/src/app/log/.psql_history
+    SIDEKIQ_USERNAME: admin
+    SIDEKIQ_PASSWORD: password
   volumes:
     - .:/usr/src/app:cached
     - bundler:/usr/local/bundle:delegated
