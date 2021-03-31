@@ -29,7 +29,7 @@ end
 group :development do
   gem 'letter_opener', '~> 1.7'
   gem 'letter_opener_web', '~> 1.4'
-  gem 'listen', '~> 3.3'
+  gem 'listen', '~> 3.5'
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'rubocop', '~> 1.1', require: false
   gem 'rubocop-performance', '~> 1.9', require: false
