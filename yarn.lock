@@ -835,10 +835,10 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@rails/actioncable@^6.0.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-6.1.0.tgz#f336f25450b1bc43b99bc60557a70b6e6bb1d3d2"
-  integrity sha512-eDgy+vcKN9RIzxmMBfSAe77rTj2cp6kJALiVQyKrW2O9EK2MdostOmP+99At/Dit3ur5+77NVnruxD7y14ZYFA==
+"@rails/actioncable@^7.0.4":
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.0.4.tgz#70a3ca56809f7aaabb80af2f9c01ae51e1a8ed41"
+  integrity sha512-tz4oM+Zn9CYsvtyicsa/AwzKZKL+ITHWkhiu7x+xF77clh2b4Rm+s6xnOgY/sGDWoFWZmtKsE95hxBPkgQQNnQ==
 
 "@rails/activestorage@^6.0.0":
   version "6.1.0"
