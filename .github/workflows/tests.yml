@@ -20,7 +20,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-docker-
       - name: Cache Assets
-        uses: actions/cache@v2
+        uses: actions/cache@v3.0.11
         with:
           path: |
             **/node_modules
@@ -30,7 +30,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-assets-
       - name: Cache gems
-        uses: actions/cache@v2
+        uses: actions/cache@v3.0.11
         with:
           path: |
             vendor/bundle
